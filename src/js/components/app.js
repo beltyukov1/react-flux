@@ -1,6 +1,6 @@
 var React = require('react');
 var Catalog = require('./catalog/app-catalog');
-var CatalogDetail = require('./catalog/app-catalogitem');
+var CatalogDetail = require('./product/app-catalogdetail');
 var Template = require('./app-template');
 var Cart = require('./cart/app-cart');
 var Router = require('react-router-component');

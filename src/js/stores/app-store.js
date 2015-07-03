@@ -77,7 +77,7 @@ var AppStore = assign(EventEmitter.prototype, {
     return _catalog;
   },
   getCartTotals: function(){
-    return _cartTotals;
+    return _cartTotals();
   },
   dispatcherIndex: AppDispatcher.register(function(payload){
     var action = payload.action; // this is our action from handleViewAction
